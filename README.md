@@ -1,21 +1,23 @@
-# Siyakholwa Funeral Services — WebDevPro UltraMax 7 Pro Premium
+# Siyakholwa Funeral Services — UltraMax 7 Pro Premium Rebrand
 
-This repository is linked to the Vercel project **siyakholwafuneralservices**.
+Built from WebDevPro UltraMax 7 Pro Premium (mobile icon update). Static HTML/CSS/JS, 7-page template plus **Funeral Plans** (8 pages), mobile footer icons, service-specific WhatsApp assistant, quote wizard, installable/offline PWA, animated slides, flip cards, timeline, interactive service explorer, image gallery and comparison.
 
-## Publish the completed website package
+## Preview locally
 
-1. Download the provided `site.zip` from the ChatGPT conversation.
-2. In this repository, select **Add file → Upload files** on the `main` branch.
-3. Upload the archive with the **exact filename `site.zip`** and commit it directly to `main`.
-4. GitHub Actions workflow `.github/workflows/publish-site.yml` verifies the archive, extracts all HTML, CSS, JavaScript, PWA assets and client photos to the repository root, and commits those website files automatically.
-5. Vercel's existing Git integration deploys the extracted static website. Verify the deployment status in the linked Vercel project.
+Serve this directory with `python -m http.server 8000` and visit `http://localhost:8000/`. For Vercel, set Framework Preset **Other** and use this directory as the project root, no build command.
 
-**Do not upload only the ZIP unless the GitHub Actions workflow is enabled.** If Actions are disabled, extract the ZIP locally and upload its contents directly to the repository root instead.
+## Brand details
 
-## Release review
+- Official website: www.siyakholwafuneralservices.co.za (not activated by this ZIP)
+- General call: 063 429 6806
+- WhatsApp: 063 429 6805
+- Office: 047 531 0084
+- Email: info@siyakholwafuneralservices.co.za
+- Head Office: Mdantsane, Eastern Cape
+- Premiums: from R195/mo, up to 9 people, R80 joining fee, 6-month ordinary waiting, 1-month accidental-death wait (subject to policy).
 
-The package is intentionally marked `noindex` until the customer approves regulated financial-service claims and confirms the relevant licensing/underwriting and payment details, third-party affiliations, waiting periods and payout rules. The logo and imagery are supplied by the customer; no stock photos are used.
+## Go-live legal review required
 
-**Client contacts:** 063 429 6806 (calls), 063 429 6805 (WhatsApp), info@siyakholwafuneralservices.co.za. Business website: www.siyakholwafuneralservices.co.za. Domain DNS is not configured by this workflow.
+This prototype uses `noindex,nofollow` and a blocking robots.txt until the customer independently verifies all legally material statements, advertising of insurance and credit (including identity and status of the regulated underwriting insurer, insurance intermediary authorization, FSP/NCR numbers, responsible underwriter, product disclosure/terms and payout/claim criteria), any third-party logos and associations, ambulance membership conditions, and current premiums. The supplied artwork gives conflicting pricing and phone number variants; the latest user-provided prices take precedence. We did **not** claim to independently verify any license, Old Mutual/RMA partnerships or payout guarantees. Do not publish financial product claims without written confirmation.
 
-**Design**: WebDevPro.
+All photos are exclusively derived from files provided with the brief, with certain crops from supplied posters. No outside photos.

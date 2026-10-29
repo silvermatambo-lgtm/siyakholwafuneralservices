@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Review financial-services legal/partner claims and domain ownership before indexing
