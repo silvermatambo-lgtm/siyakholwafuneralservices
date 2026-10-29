@@ -1,6 +1,6 @@
 /* Ultra Max 7 Pro Premium — change CACHE_VERSION when deploying a new client version.
    Same-origin static assets are cached; enquiries and external sites are NOT cached. */
-const CACHE_VERSION = 'siyakholwa-v1-20261029';
+const CACHE_VERSION = 'siyakholwa-images-v2-20261029';
 const APP_CACHE = `${CACHE_VERSION}-static`;
 const PAGE_CACHE = `${CACHE_VERSION}-pages`;
 const ASSETS = [
@@ -11,7 +11,9 @@ const ASSETS = [
   './assets/icon-192.png', './assets/icon-512.png', './assets/icon-maskable.png',
   './assets/icon-180.png', './assets/logo-mark.webp', './assets/coffin-showroom.webp', './assets/coffin-wood.webp', './assets/tent.webp',
   './assets/coffin-premium.webp', './assets/coffin-range.webp',
-  './assets/grocery-benefits.webp', './assets/poster-fleet.webp'
+  './assets/grocery-benefits.webp', './assets/poster-fleet.webp',
+  './assets/poster-services.webp', './assets/poster-setup.webp', './assets/poster-hearse.webp',
+  './assets/coffin-open.webp', './assets/poster-cover.webp'
 ];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(APP_CACHE).then(cache => cache.addAll(ASSETS)));

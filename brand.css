@@ -17,3 +17,9 @@ h1,h2,.brand-wordmark{font-family:Georgia,'Times New Roman',serif}a:hover{color:
 .chat-launcher{background:#d4af37!important;color:#081a2b!important;border-color:#d4af37!important;box-shadow:0 9px 30px #0005!important}.chat-launcher-label{color:#07182b!important}.chat-launcher svg{color:#07182b!important}.chat-top{background:#081a30!important}.chat-avatar{background:#0b263d!important}.chat-panel .btn,.chat-controls button{background:#d4af37}.mobile-nav-chat-icon{background:#a68132!important}.mobile-nav-live{background:#70e69d!important}
 
 @media(max-width:767px){.slide-controls{bottom:13px!important;left:auto!important;right:16px!important}.hero-guarantee{margin-bottom:56px!important}.hero .slide-controls button{width:36px;height:36px}}
+
+/* Keep client photographs visible independently of scroll-reveal JavaScript. */
+.welcome-photo, .service-photo-card { opacity:1; clip-path:none; }
+.welcome-photo img, .service-photo-card img, .photo-strip img { display:block; width:100%; object-fit:cover; }
+.welcome-photo img { height:100%; }
+@media (prefers-reduced-motion:reduce) { .welcome-photo img, .service-photo-card img { transition:none; } }
